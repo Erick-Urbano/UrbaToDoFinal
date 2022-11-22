@@ -2,6 +2,7 @@ package com.example.interfaceuser;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -29,6 +30,13 @@ public class MainActivity extends AppCompatActivity {
         }   else {
             Toast.makeText(this, nombre_usuario + "Credenciales incorrectas", Toast.LENGTH_LONG).show();
         }
+
+    }
+
+    public void Ingresar (View view){
+
+        Intent i = new Intent(this, MainActivity2.class);
+        startActivity(i);
 
     }
 }

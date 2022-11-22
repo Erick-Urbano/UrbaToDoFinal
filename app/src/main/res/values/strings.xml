@@ -3,4 +3,15 @@
     <string name="inputText">Ingrese usuario</string>
     <string name="InputPassword">Ingrese contraseña</string>
     <string name="SendButton">Ingresar</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Erick Salomon Urbano Martinez</string>
+    <string name="nav_header_subtitle">erick.urbano00@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Día a Día</string>
+    <string name="menu_gallery">Calendario</string>
+    <string name="menu_slideshow">Proyectos</string>
 </resources>
