@@ -1,5 +1,7 @@
 package com.example.interfaceuser;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -29,11 +31,11 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarMain.toolbar);
-        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
+        binding.appBarMain.fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent i = new Intent( Intent.ACTION_VIEW, Uri.parse("https://www.gmail.com/"));
+                startActivity(i);
             }
         });
         DrawerLayout drawer = binding.drawerLayout;
@@ -62,4 +64,17 @@ public class MainActivity2 extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+    public void listaVer (View view){
+
+        Intent i = new Intent(this, MainActivity3.class);
+        startActivity(i);
+
+    }
+
+    public void gmail (View view){
+        Intent i = new Intent( Intent.ACTION_VIEW, Uri.parse("http://www.gmail.com/"));
+        startActivity(i);
+    }
+
 }

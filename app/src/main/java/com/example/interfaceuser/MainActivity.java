@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private EditText et1;
     private EditText et2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         et1=(EditText)findViewById(R.id.txt_usuario);
         et2=(EditText)findViewById(R.id.txt_password);
+
     }
 
     public void ingresar(View view){

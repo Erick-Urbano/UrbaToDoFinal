@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">InterfaceUser</string>
+    <string name="app_name">UrbaToDo</string>
     <string name="inputText">Ingrese usuario</string>
     <string name="InputPassword">Ingrese contraseña</string>
     <string name="SendButton">Ingresar</string>

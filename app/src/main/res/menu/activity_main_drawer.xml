@@ -16,5 +16,6 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/bombilla"
             android:title="@string/menu_slideshow" />
+
     </group>
 </menu>

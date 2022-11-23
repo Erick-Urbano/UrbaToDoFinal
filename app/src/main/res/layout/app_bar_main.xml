@@ -23,12 +23,27 @@
     <include layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/fab2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:onClick="gmail"
+        app:backgroundTint="#052BFF"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:onClick="listaVer"
+        android:src="@android:drawable/ic_menu_edit"
+        app:backgroundTint="#052BFF" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
